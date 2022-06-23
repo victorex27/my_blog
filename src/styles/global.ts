@@ -11,5 +11,7 @@ export default createGlobalStyle`
 
 #root{
     margin: 0 auto;
+    height: 100%;
+    min-height: 100%;
 }
 `
