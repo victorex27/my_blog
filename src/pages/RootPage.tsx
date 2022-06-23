@@ -1,4 +1,5 @@
 import React, {FC} from "react";
+import NavBar from "../components/NavBar";
 
 interface ChildrenPropType {
     children: React.HTMLAttributes<HTMLAreaElement>
@@ -6,7 +7,10 @@ interface ChildrenPropType {
 
 const RootPage : FC<ChildrenPropType> = (props) =>{
 
-    return <> {props.children} </>;
+    return <> 
+    <NavBar/>
+    {props.children} 
+    </>;
 }
 
 export default RootPage;
