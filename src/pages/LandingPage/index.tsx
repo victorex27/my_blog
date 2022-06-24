@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import RootPage from './RootPage';
+import RootPage from '../RootPage';
 
 const LandingPage: FC = () => {
   return (

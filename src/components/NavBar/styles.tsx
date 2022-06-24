@@ -28,7 +28,7 @@ export const SubContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-  font-size: larger;
+ 
   text-transform: uppercase;
 `;
 
