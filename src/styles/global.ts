@@ -11,6 +11,8 @@ export default createGlobalStyle`
 
 html{
     font-size: 62.5%;
+    height: 100%;
+    min-height: 100%;
 }
 
 body{
@@ -20,14 +22,15 @@ body{
   line-height: 1.7;
   /* padding: 3rem; */
   box-sizing: border-box;
-  min-height: 100vh;
+  height: 100%;
+  min-height: 100%;
 }
 
 #root{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0 auto;
-    
-    min-height: 100vh;
+    height: 100%;
+    min-height: 100%;
 }
 `

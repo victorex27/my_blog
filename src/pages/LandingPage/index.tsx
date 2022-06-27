@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
+import BlogPost from '../../components/BlogPost';
 import RootPage from '../RootPage';
 
 const LandingPage: FC = () => {
   return (
     <RootPage>
-      <div>hello</div>
-      <div>how do you do</div>
+      <BlogPost></BlogPost>
     </RootPage>
   );
 };

@@ -8,7 +8,8 @@ export const Container = styled.div`
   background-color: white;
   color: #131a22;
   border-bottom: 1px solid #d8f5f9;
-  min-height: 100px;
+  /* min-height: 100px; */
+  flex: 0 0 100Px;
  
 
   @media (max-width: 768px) {
