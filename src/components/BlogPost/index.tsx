@@ -6,7 +6,7 @@ const BlogPost: FC = () => {
     <>
       <MiniHeader> 27 June 2022 . Blog</MiniHeader>
       <Title>We create a modern beautiful image.</Title>
-      <BlogImage src={img1} alt="code" />
+      <BlogImage src={img1} alt="Javascript code image" />
     </>
   );
 };

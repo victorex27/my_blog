@@ -9,6 +9,10 @@ export const Title = styled.h2`
   line-height: 1em;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
+
+  @media (max-width: 768px) {
+    font-size: 3em;
+  }
 `;
 
 export const BlogImage = styled.img`
