@@ -22,7 +22,6 @@ body{
   line-height: 1.7;
   /* padding: 3rem; */
   box-sizing: border-box;
-  height: 100%;
   min-height: 100%;
 }
 

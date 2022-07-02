@@ -14,8 +14,6 @@ export const Container = styled.div`
   /* min-height: 100px; */
   flex: 0 0 60%;
   /* min-height: 100%; */
-  border: 1px solid black;
-  height: auto;
  
 
   @media (max-width: 768px) {
