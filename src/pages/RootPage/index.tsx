@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import CenterDiv from '../../components/CenterDiv';
+import Footer from '../../components/Footer';
 import LeftBar from '../../components/LeftBar';
 import NavBar from '../../components/NavBar';
 import RightBar from '../../components/RightBar';
@@ -42,6 +43,11 @@ const RootPage: FC<ChildrenPropType> = ({ children }) => {
           <LeftBar content={leftBarContent} />
           <CenterDiv>{children}</CenterDiv>
           <RightBar items={rightBarContent} />
+        </SubContainer>
+        <SubContainer>
+          <LeftBar  />
+          <CenterDiv><Footer/></CenterDiv>
+          <RightBar />
         </SubContainer>
       </Container>
     </>

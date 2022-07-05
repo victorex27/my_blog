@@ -10,9 +10,7 @@ interface Props {
 const RightBar: FC<Props> = ({ items }) => {
   return (
     <Container>
-    
-      
-      <SportsBaseball color="primary"/>
+      {items && <SportsBaseball color='primary' />}
       {items && items.map((props) => <ArticleDiv {...props} />)}
     </Container>
   );

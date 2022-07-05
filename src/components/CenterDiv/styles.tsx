@@ -10,6 +10,7 @@ export const Container = styled.div`
   color: #131a22;
   padding: 10em;
   /* width: 50%; */
+  border-right: 1px solid #d8f5f9;
  
   /* min-height: 100px; */
   flex: 0 0 60%;
