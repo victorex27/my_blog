@@ -42,9 +42,9 @@ export const NavBarLink = styled(Link)`
   margin: 10px;
   &:hover,
   &:focus {
-    color: blue;
+    color: #131f33;
   }
   &:active {
-    color: red;
+    color: #132f33;
   }
 `;
