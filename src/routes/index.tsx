@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import ErrorBoundary from '../components/ErrorBoundary';
 import LandingPage from '../pages/LandingPage';

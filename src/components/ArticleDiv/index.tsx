@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { Article, Container, Label, StyledLink } from './styles';
 
 interface PropType {

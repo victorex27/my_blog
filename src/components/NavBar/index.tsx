@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { Container, SubContainer, Header, NavBarLink } from './styles';
 
 const NavBar: FC = () => {
