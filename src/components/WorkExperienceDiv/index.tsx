@@ -8,7 +8,7 @@ const WorkExperienceDiv: FC = () => {
         <h3> Application Developer II</h3>
         <span> April 2021 - March 2022</span>
       </Title>
-      <div></div>
+    
       <Description>
         <h4>Access Bank Plc</h4>
         <article>

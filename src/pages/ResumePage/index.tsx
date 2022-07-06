@@ -1,11 +1,13 @@
 import  { FC } from 'react';
-import BlogPost from '../../components/BlogPost';
+import WorkExperienceDiv from '../../components/WorkExperienceDiv';
 import RootPage from '../RootPage';
 
 const LandingPage: FC = () => {
   return (
     <RootPage>
-      <BlogPost></BlogPost>
+      <WorkExperienceDiv/>
+      <WorkExperienceDiv/>
+      <WorkExperienceDiv/>
     </RootPage>
   );
 };

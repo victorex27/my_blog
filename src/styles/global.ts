@@ -23,6 +23,7 @@ body{
   /* padding: 3rem; */
   box-sizing: border-box;
   min-height: 100%;
+  color: gray;
 }
 
 #root{
