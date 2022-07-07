@@ -6,6 +6,8 @@ export const Container = styled.div`
   align-items: flex-start;
   margin-bottom: 2rem;
   position: relative;
+  /* border: 1px solid black; */
+  width: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -25,6 +27,7 @@ export const Title = styled.div`
 
   h3 {
     font-size: 1.7rem;
+    margin-bottom: 0;
   }
 
   @media (max-width: 768px) {
@@ -51,12 +54,13 @@ export const Description = styled.div`
 
   &::before {
     content: '';
-    background: url('./icons8_laptop.gif');
+    background: url('./icons8-work-100.png');
     background-position: center center;
     background-size: cover;
     opacity: 0.5;
     height: 39px;
     margin: -20px;
+    margin-top: -5px;
     width: 39px;
     position: absolute;
     left: -10px;
@@ -69,7 +73,7 @@ export const Description = styled.div`
     margin-left: 1.4em;
     &::before {
       left: -1.2em;
-      top: -40px;
+      top: -60px;
     }
   }
 `;

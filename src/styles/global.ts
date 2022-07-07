@@ -33,4 +33,9 @@ body{
     height: 100%;
     min-height: 100%;
 }
+
+h3{
+    font-size: 3.5em;
+    margin-bottom: 3em;
+}
 `
