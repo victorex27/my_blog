@@ -23,6 +23,7 @@ body{
   /* padding: 3rem; */
   box-sizing: border-box;
   min-height: 100%;
+  color: gray;
 }
 
 #root{
@@ -31,5 +32,10 @@ body{
     margin: 0 auto;
     height: 100%;
     min-height: 100%;
+}
+
+h3{
+    font-size: 3.5em;
+    margin-bottom: 3em;
 }
 `

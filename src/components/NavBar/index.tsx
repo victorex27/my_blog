@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { Container, SubContainer, Header, NavBarLink } from './styles';
 
 const NavBar: FC = () => {
@@ -9,7 +9,7 @@ const NavBar: FC = () => {
         <NavBarLink to='/resume'> My Resume</NavBarLink>
       </SubContainer>
 
-      <Header> Amaobi Victor </Header>
+       <NavBarLink to='/'> <Header>Amaobi Victor</Header></NavBarLink> 
       <SubContainer>
         <NavBarLink to='/project'> Projects</NavBarLink>
         <NavBarLink to='/blog'> Blog Posts</NavBarLink>

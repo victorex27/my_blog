@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import BlogPost from '../../components/BlogPost';
 import RootPage from '../RootPage';
 

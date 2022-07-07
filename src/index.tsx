@@ -15,7 +15,6 @@ let theme = createTheme({
   },
 });
 
-console.log({theme});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

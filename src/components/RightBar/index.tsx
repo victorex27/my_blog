@@ -1,5 +1,5 @@
 import { SportsBaseball } from '@material-ui/icons';
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import ArticleDiv from '../ArticleDiv';
 import { Container } from './styles';
 

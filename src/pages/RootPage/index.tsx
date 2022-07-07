@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import CenterDiv from '../../components/CenterDiv';
 import Footer from '../../components/Footer';
 import LeftBar from '../../components/LeftBar';

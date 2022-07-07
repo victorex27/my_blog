@@ -1,5 +1,5 @@
 import { GitHub, LinkedIn, Twitter } from '@material-ui/icons';
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { Container, CustomLink } from './styles';
 
 const Footer: FC = () => {

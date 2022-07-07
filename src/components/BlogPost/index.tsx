@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { BlogImage, MiniHeader, Title } from './styles';
 import img1 from '../../assests/img1.jpg';
 const BlogPost: FC = () => {
